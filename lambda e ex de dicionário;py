@@ -7,10 +7,20 @@
 #lista = ['Gato', 'Cachorro']
 #print(contador_letras(lista))
 
-#Podemos utilizar Lambda (função anônima) para comprimir tudo isso!
+#Podemos utilizar Lambda (função anônima) para comprimir tarefas que são possíveis de serem feitas com apenas uma linha!
 #Confesso que por mais compacto que fique, isso dificulta a minha leitura, acho que até para ajudar uma possível equipe que esteja junto comigo, ou futuros desenvolvedores
 #que irão dar manutenção ao software/código talvez seja melhor fazer no método convencional ^^
 
 contador_letras = lambda lista: [len(x) for x in lista] #é uma forma mais complexa de leitura, mas bem mais comprimida
 lista_animais= ['Cachorro','Lembre','Coelho', 'Papafigo']
 print(contador_letras(lista_animais))
+
+#Aqui temos o uso de dicionário e função lambda para a criação de uma calculadora.
+calculadora = {
+    'soma': lambda a, b: a + b,
+    'subtracao': lambda a, b: a + b,
+    'divisao': lambda a, b: a / b,
+    'multiplicacao': lambda a, b: a * b,
+}
+soma = calculadora['soma']
+print(soma(1, 2))
