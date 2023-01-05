@@ -38,3 +38,11 @@ Um ponto positivo dos conjuntos é que ele é um elemento que não apresenta dup
 
 Para adicionar item a conjuntos utilizamos o .add()
 Para descartarmos item de conjuntos utilizamos o .discard()
+
+Aqui nos conjuntos, podemos utilizar os métodos de conjuntos aritméticos como:
+
+.union() para união
+.intersection() para intercessão 
+.difference() para diferença
+.symmetric_difference() para diferença simétrica 
+.issubset() para saber se um conjunto é subconjunto do outro
