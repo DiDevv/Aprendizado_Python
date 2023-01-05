@@ -1,0 +1,39 @@
+## Organizando Dados em listas e tuplas
+
+Qual a diferença de uma Tupla( ) para uma Lista[ ]?
+
+A Tupla ela é imutável, diferente da Lista que é manipulável.
+
+Utilizamos o ‘tuple’ para converter listas em tuplas
+
+Utilizamos o ‘list’ para converter tuplas em listas
+
+
+Abaixo estão alguns comandos principais para manipulação de listas em python:
+
+.append() = adiciona 
+
+if ‘talcoisa’ in talLista  (Verifica se há um item específico na lista)
+
+print (existe)
+
+.pop() = retira o ultimo item que foi adicionado na lista, se você especificar qual, ele também remove, exemplo .pop(1)
+
+.remove() = remove pelo nome
+
+.sort() = ordena a lista
+
+.reverse = como o próprio nome já diz, ele ordena do começo pro final
+
+.len()= serve pra descobrir quantos elementos tem na lista (TAMBÉM FUNCIONA PARA TUPLA)
+
+.del() = deleta completamente a lista se não tiver um parâmetro, cuidado!
+
+
+## Organizando conjuntos e Subconjuntos de elementos em Python
+
+Para criarmos conjuntos utilizamos ‘{}’ chaves. O conjunto é do tipo SET.
+
+Um ponto positivo dos conjuntos é que ele é um elemento que não apresenta duplicidade.
+
+Para adicionar item a conjuntos utilizamos o .add()
