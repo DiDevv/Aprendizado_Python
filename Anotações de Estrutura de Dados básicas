@@ -37,3 +37,4 @@ Para criarmos conjuntos utilizamos ‘{}’ chaves. O conjunto é do tipo SET.
 Um ponto positivo dos conjuntos é que ele é um elemento que não apresenta duplicidade.
 
 Para adicionar item a conjuntos utilizamos o .add()
+Para descartarmos item de conjuntos utilizamos o .discard()
