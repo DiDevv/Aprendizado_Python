@@ -1,6 +1,6 @@
 import random
 taylor = random.randint(1,156)
-adele = random.randint(1,157)
+adele = random.randint(1,156)
 #Utilizo o print abaixo como forma de teste para verificar a eficácia do programa
 print('taylor:{}, adele:{} '.format(taylor, adele))
 
