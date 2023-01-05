@@ -46,3 +46,5 @@ Aqui nos conjuntos, podemos utilizar os métodos de conjuntos aritméticos como:
 .difference() para diferença
 .symmetric_difference() para diferença simétrica 
 .issubset() para saber se um conjunto é subconjunto do outro
+.issuperset() para saber se um conjunto é “sobreconjunto” do outro
+Podemos transformar listas em conjuntos para remover a duplicação de itens. (Altera a ordem dos itens, caso precise que não altere, há outros métodos.)
