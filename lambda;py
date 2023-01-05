@@ -1,0 +1,16 @@
+#def contador_letras(lista_palavras):
+#    contador = []
+#    for x in lista_palavras:
+#        quantidade = len(x)
+#        contador.append(quantidade)
+#    return contador
+#lista = ['Gato', 'Cachorro']
+#print(contador_letras(lista))
+
+#Podemos utilizar Lambda (função anônima) para comprimir tudo isso!
+#Confesso que por mais compacto que fique, isso dificulta a minha leitura, acho que até para ajudar uma possível equipe que esteja junto comigo, ou futuros desenvolvedores
+#que irão dar manutenção ao software/código talvez seja melhor fazer no método convencional ^^
+
+contador_letras = lambda lista: [len(x) for x in lista] #é uma forma mais complexa de leitura, mas bem mais comprimida
+lista_animais= ['Cachorro','Lembre','Coelho', 'Papafigo']
+print(contador_letras(lista_animais))
