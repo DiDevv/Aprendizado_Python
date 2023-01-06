@@ -13,3 +13,6 @@ while True:
         break
     except ValueError:
         print('Valor inválido, deve-se digitar apenas números inteiros.')
+    #já temos o erro tratado lá m cima, é só chamar.
+    except InputError as ex:
+        print(ex)
