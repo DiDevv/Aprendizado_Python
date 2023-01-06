@@ -1,4 +1,5 @@
-#Esse programa escreve um arquivo automaticamente com a nota de quantos alunos você quiser, ele também retorna a média desses alunos.
+#Esse programa escreve um arquivo automaticamente (ou utiliza um já pronto) com a nota de quantos alunos você quiser, separadas por vírgula, 
+#ele também retorna a média desses alunos. Basta importar!
 #OBS: QUEBREI MUITO A CABEÇA FAZENDOOOOOOOOoooo
 def escrever_arquivo(nome_arquivo, texto):
     arquivo = open(nome_arquivo, 'a')
