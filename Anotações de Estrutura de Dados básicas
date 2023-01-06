@@ -8,7 +8,6 @@ Utilizamos o ‘tuple’ para converter listas em tuplas
 
 Utilizamos o ‘list’ para converter tuplas em listas
 
-
 Abaixo estão alguns comandos principais para manipulação de listas em python:
 
 .append() = adiciona 
@@ -28,6 +27,8 @@ print (existe)
 .len()= serve pra descobrir quantos elementos tem na lista (TAMBÉM FUNCIONA PARA TUPLA)
 
 .del() = deleta completamente a lista se não tiver um parâmetro, cuidado!
+
+Podemos separar Strings em substrings transformando-as em listas com o .split
 
 
 ## Organizando conjuntos e Subconjuntos de elementos em Python
